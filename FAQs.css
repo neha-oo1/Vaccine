@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.bggray{
+    height: 1100px;
+    background-color: #8080802e;
+    padding: 2px;
+}
+.accordion {
+    background-color: #eee;
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    /* margin: 81px; */
+    width: 74%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin: 13px 178px;
+    box-shadow: 1px 2px 10px grey;
+    border-radius: 20px;
+}
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    /* background-color: white; */
+    overflow: hidden;
+    /* background-color: #8080802e */
+  }
+
+  .text-big{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 48px;
+    font-family:'Ubuntu', sans-serif;
+  }
+  .text-small{
+    text-align: center;
+    font-size: 26px;
+    padding: 7px;
+    font-family: 'Raleway', sans-serif; 
+    margin: 5px;
+}
+.dp{
+    /* font-weight: bold; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px 194px;
+}
